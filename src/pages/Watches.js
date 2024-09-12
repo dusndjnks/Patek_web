@@ -6,8 +6,8 @@ const Watches = () => {
   return (
     <Layout>
         <div className=''>
-          <h1 className='text-3xl'>Explore Our Watches</h1>
-            <div className='flex gap-10'>
+          <h1 className='text-4xl font-semibold underline pt-20 pl-20'>Explore Our Watches</h1>
+            <div className='flex flex-wrap  gap-10 p-10 justify-center '>
             {
               data.map((item) => {
                 return(
