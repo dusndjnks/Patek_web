@@ -13,9 +13,9 @@ const Watch = () => {
                 data.map((item) => {
                     return(
                         <Link to={`/admin/watches/${item.id}`}>
-                            <div   className='flex items-center s:gap-6 gap-2  p-'>
+                            <div   className='flex items-center gap-6  p-5'>
                             <div>
-                                <img src={item.image} alt="" className='' />
+                                <img src={item.image} alt="" className=' s:h-40 lg:h-64 h-28  ' />
                             </div>
                            <div className='flex flex-col'>
                            <h1 className='s:text-4xl text-xl font-mono'>{item.title}</h1>

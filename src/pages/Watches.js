@@ -8,7 +8,7 @@ const Watches = () => {
     <div>
         <div className='w-screen flex flex-col items-center transition-700'>
           <h1 className='md:text-4xl sm:text-4xl s:text-3xl text-xl font-semibold underline my-5'>Explore Our Watches</h1>
-            <div className='flex flex-wrap  gap-10 p-10  justify-center '>
+            <div className='flex flex-wrap  gap-10 s:p-10 p-8  justify-center '>
             {
               data.map((item) => {
                 return(
