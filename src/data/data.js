@@ -4,13 +4,15 @@ export const data = [
         title : "Geneve",
         Price : "56 Lack",
         description : "Automatic ",
-        image  : "https://www.watchtime.com/wp-content/uploads/2022/10/PP_5811_1G_001_PRESS-1.jpeg"
+        rent : "$100/day",
+        image  : "https://static.patek.com/images/articles/gallery/2200/5990_1A_011_8.jpg"
     },
     {
         id : 2,
         title : "Self-winding",
-        Price : "45 Lack",
+        Price : "95 Lack",
         description : "Automatic",
+        rent : "$100/day",
         image : "https://static.patek.com/images/articles/gallery/2200/7118_1451G_001_8.jpg"
     },
     {
@@ -18,6 +20,7 @@ export const data = [
         title : "Aquanaut",
         Price : "55 Lack",
         description : "Automatic",
+        rent : "$100/day",
         image : "https://static.patek.com/images/articles/gallery/2200/5990_1R_001_8.jpg"
     },
     {
@@ -25,9 +28,9 @@ export const data = [
         title : "Nautilus",
         Price : "45 Lack",
         description : "Automatic",
+        rent : "$100/day",
         image : "https://static.patek.com/images/articles/gallery/2200/5980_60G_001_8.jpg"
     }
 
 ]
-
 export default data

@@ -1,9 +1,8 @@
 import React from 'react'
-import Layout from '../component/Layout'
 
 const About = () => {
   return (
-    <Layout>
+    <div>
       <div className='bg-gray-200 h-full flex flex-col '>
       <div className='p-10 space-y-4 bg-gray-200 '>
         <img src="https://images.pexels.com/photos/1697214/pexels-photo-1697214.jpeg" className=' lg:px-64' alt="" />
@@ -15,7 +14,7 @@ const About = () => {
         <button className='bg-gray-800 text-white md:text-2xl px-5 py-2'>Go To Store</button>
       </div>
       </div>
-    </Layout>
+    </div>
   )
 }
 

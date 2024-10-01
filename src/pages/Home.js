@@ -1,9 +1,8 @@
 import React from 'react'
-import Layout from '../component/Layout'
 
 const Home = () => {
   return (
-   <Layout>
+   <div>
       <div >
         <img src="http://www.time4diamonds.com/media/mgs_blog/i/m/img_4247_1.jpg" className='bg-cover relative brightness-50 h-full w-screen' alt="" />
         <div className='absolute lg:top-96 md:top-48 top-32 lg:px-16 md:px-10 px-2 flex flex-col items-center justify-center text-white  space-y-5'>
@@ -12,7 +11,9 @@ const Home = () => {
         <button className='bg-indigo-200   md:text-lg   rounded-full text-gray-800 lg:px-10 xs:px-5 md:px-8 md:py-3 px-1 lg:text-3xl '>Store</button>
         </div>
       </div>
-   </Layout>
+      <div>
+      </div>
+   </div>
   )
 }
 
