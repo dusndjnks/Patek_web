@@ -9,23 +9,25 @@ const AdminWatchDetails = () => {
     const watch = data.find((item) => Number(item.id) === Number(id))
     console.log(watch);
   return (
-    <div className='m-20'>
-        <div className='flex items-center gap-20 '>
-        <img src={watch.image} alt="" className='w-96 ' />
+    <div className=''>
+       <div className='s:m-13  sm:m-16 m-6 '>
+       <div className='flex items-center md:gap-20 s:gap-14 gap-3 '>
+        <img src={watch.image} alt="" className='md:w-96 s:w-72 w-40 ' />
         <div>
-          <h1 className='text-5xl font-semibold  font-serif'>{watch.title}</h1>
-          <h1 className='text-xl'>{watch.rent}</h1>
+          <h1 className='md:text-5xl text-xl font-semibold  font-serif'>{watch.title}</h1>
+          <h1 className='s:text-xl text-md'>{watch.rent}</h1>
         </div>
         </div>
         <div>
           <h1 className='text-3xl mt-5'>{watch.title}</h1>
           <h1 className='text-lg'>{watch.Price}</h1>
           <h1 className='text-lg mb-5'>{watch.description}</h1>
-          <p className='w-96'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur veritatis neque, a optio nihil numquam, quibusdam et delectus porro voluptas, quas tempora in exercitationem dolore esse possimus excepturi autem totam.</p>
+          <p className='md:w-96 '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur veritatis neque, a optio nihil numquam, quibusdam et delectus porro voluptas, quas tempora in exercitationem dolore esse possimus excepturi autem totam.</p>
         </div>
-        <div  className='flex items-center w-auto justify-center'>
-        <Link to="/admin/watches" className='text-2xl font-bold bg-black text-white px-8 py-3 '>Back to the Watches</Link>
-        </div>
+       </div>
+        <div className='flex items-center w-screen justify-center my-3 s:my-5 '>
+      <Link to="/watches" className='s:text-2xl text-lg font-bold bg-black text-white lg:px-8 xs:px-5  s:px-6 py-3 '>Back to the Watches</Link>
+      </div>
     </div>
   )
 

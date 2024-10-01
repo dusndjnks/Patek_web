@@ -6,17 +6,20 @@ const Watch = () => {
   return (
     <div>
         <div>
+            <div className='w-screen my-10 text-center '>
+                <h1 className='md:text-4xl s:text-2xl text-xl  underline font-semibold'>Your Listed Watches</h1>
+            </div>
             {
                 data.map((item) => {
                     return(
                         <Link to={`/admin/watches/${item.id}`}>
-                            <div   className='flex items-center gap-6  p-5'>
+                            <div   className='flex items-center s:gap-6 gap-2  p-'>
                             <div>
-                                <img src={item.image} alt="" className=' h-40 ' />
+                                <img src={item.image} alt="" className='' />
                             </div>
                            <div className='flex flex-col'>
-                           <h1 className='text-4xl font-mono'>{item.title}</h1>
-                           <h1 className='text-2xl'>{item.Price}</h1>
+                           <h1 className='s:text-4xl text-xl font-mono'>{item.title}</h1>
+                           <h1 className='s:text-2xl text-md'>{item.Price}</h1>
                            </div>
                            </div>
                         </Link>
