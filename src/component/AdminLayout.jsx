@@ -4,7 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 const AdminLayout = () => {
   return (
     <div className=''>
-        <div className='lg:text-4xl text-md md:text-2xl s:text-xl lg:space-x-40 space-x-5 px-2 s:space-x-16 md:space-x-32 px-20 bg-black text-white h-24 flex  items-center justify-center'>
+        <div className='lg:text-4xl text-lg md:text-2xl  lg:space-x-40  space-x-5 md:space-x-32 px-6  bg-black text-white h-24 flex  items-center justify-center'>
         <NavLink to="."              className={({isActive}) => isActive ? "underline font-serif " : ""}>Dashboard</NavLink>
         <NavLink to="/admin/income"  className={({isActive}) => isActive ? "underline" : ""}>Income</NavLink>
         <NavLink to="/admin/review"  className={({isActive}) => isActive ? "underline" : ""}>Review</NavLink>
