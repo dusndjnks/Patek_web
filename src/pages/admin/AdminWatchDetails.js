@@ -26,7 +26,7 @@ const AdminWatchDetails = () => {
         </div>
        </div>
         <div className='flex items-center w-screen justify-center my-3 s:my-5 '>
-      <Link to="/watches" className='s:text-2xl text-lg font-bold bg-black text-white lg:px-8 xs:px-5  s:px-6 py-3 '>Back to the Watches</Link>
+      <Link to="/admin/watches" className='s:text-2xl text-lg font-bold bg-black text-white lg:px-8 xs:px-5  s:px-6 py-3 '>Back to the Watches</Link>
       </div>
     </div>
   )

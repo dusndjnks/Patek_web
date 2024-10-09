@@ -7,7 +7,7 @@ const Layout = ({children}) => {
   return (
     <div>
         <Navbar/>
-        <Outlet/>
+        <Outlet class="h-96"/>
         <Footer/>
     </div>
   )
