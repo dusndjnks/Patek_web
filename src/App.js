@@ -13,7 +13,7 @@ import AdminLayout from "./component/AdminLayout";
 import Watch from "./pages/admin/Watch";
 import AdminWatchDetails from "./pages/admin/AdminWatchDetails";
 
-function App() {
+function App() {  
   return (
     <Routes>
       <Route path="/" element={<Layout/>}>
