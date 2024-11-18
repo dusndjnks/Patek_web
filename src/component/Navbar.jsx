@@ -12,7 +12,7 @@ const Navbar = () => {
           <img src="https://www.freeiconspng.com/thumbs/watch-icon/watch-icon-1.png" className='w-16' alt="" />
       <Link to="/" className='font-semibold font-serif lg:text-3xl md:text-xl sm:w-auto w-20 md:pt-3 s:pt-5 pt- text-gray-800'>PATEK PHILIPPE</Link>
       </div>
-      <div className={`lg:space-x-5 md:space-x-2   items-end  duration-500 absolute md:static space-x-1 md:flex-row flex flex-col ${extendNavbar ? "right-16  top-16" : "top-40 right-16 "}`}>
+      <div className={`lg:space-x-5 md:space-x-2   items-end  duration-500 absolute md:static space-x-1 md:flex-row flex flex-col ${extendNavbar ? "right-16  top-16" : "top-[-100px] right-[-100px] "}`}>
         <NavLink to="/about"  className={({isActive}) => isActive ? "text-gray-800 underline" : "text-black"}>About</NavLink>
         <NavLink to="/watches" className={({isActive}) => isActive ? "text-gary-800 underline" : "text-black"} >Watches</NavLink> 
         <NavLink to="/admin" className={({isActive}) => isActive ? "text-gray-800 underline" : "text-black"}  >Admin</NavLink>
